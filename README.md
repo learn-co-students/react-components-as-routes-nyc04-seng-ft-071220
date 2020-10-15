@@ -197,7 +197,7 @@ into a `<div>` tag:
 ReactDOM.render((
   <Router>
     <div>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/login" component={Login} />
     </div>
